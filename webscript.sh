@@ -26,4 +26,5 @@ echo "###############################"
 rm -rf /tmp/webfiles
 echo
 
-sudo systemctl
+sudo systemctl status httpd
+ls /var/www/html/
